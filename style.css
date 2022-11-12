@@ -190,13 +190,13 @@ p {
 .bg-image {
     height: 700px;
     margin-top: 0;
-    background-image: url(/assets/img/space1.jpg) !important;
+    background-image: url(https://alpha0802.github.io/space1.jpg) !important;
 }
 
 .bg-image-faucet {
     height: 330px;
     margin-top: 0;
-    background-image: url(/assets/img/space1.jpg) !important;
+    background-image: url(https://alpha0802.github.io/space1.jpg) !important;
 }
 
 .btn.jumbo {
