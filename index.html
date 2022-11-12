@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-space">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Alpha n Omega</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> Alpha n Omega</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="navbar-nav center">
+                    <li class="nav-item">
+                        <a href="faucet_list.html" class="nav-link">Faucet List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav align-items-center">
+                    <li class="btn-style">
+                      <a class="btn btn-default btn-radius nav_item" target="_blank" href="#">
+                        Donate
+                      </a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+
+        <div class="p-5 text-center bg-image">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Join us on Discord</h1>
+                    <h4 class="mb-4">For exciting airdrops and much more!</h4>
+                    <a class="btn jumbo" href="#" role="button">
+                        Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section style="height: 50px;"></section>
+
+    <section class="features">
+        <hr style="margin-bottom: 30px;">
+        <div style="text-align: center;">
+            <h3>Features</h3>
+        </div>
+        <div class="row">
+            <div class="col m0 l1 hide-on-med-and-down center-align"></div>
+            <div class="col s12 m6 l6 xl4" style="margin:auto;margin-top:20px;">
+                <div class="col s12 m12 l12 card hoverable" id="methods" style="margin: auto; padding: 22px; border-radius: 10px;">
+                    <center>
+                        <div style="width: 64px; height: 64px; position: relative;">
+                            <ion-icon class="card-discord" name="logo-discord"></ion-icon>
+                        </div>
+                        <br>
+                        <h3>Crypto Discords</h3>
+                        <br>
+                        <span>
+                            <b>A list of faucets found within Discord itself</b>
+                        </span>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <a class="btn" href="#" role="button">
+                            Discord
+                        </a>
+                    </center>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4" style="margin:auto;margin-top:20px;">
+                <div class="col s12 m12 l12 card hoverable" id="methods" style="margin: auto; padding: 22px; border-radius: 10px;">
+                    <center>
+                        <div style="width: 64px; height: 64px; position: relative;">
+                            <ion-icon  class="faucet" name="cash-outline"></ion-icon>
+                        </div>
+                        <br>
+                        <h3>Best Faucets</h3>
+                        <br>
+                        <span>
+                            <b>A list of the best faucets with tested payouts</b>
+                        </span>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <a class="btn" href="#" role="button">
+                            Faucets
+                        </a>
+                    </center>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4" style="margin:auto;margin-top:20px;">
+                <div class="col s12 m12 l12 card hoverable" id="methods" style="margin: auto; padding: 22px; border-radius: 10px;">
+                    <center>
+                        <div style="width: 64px; height: 64px; position: relative;">
+                            <ion-icon class="newspaper" name="newspaper-outline"></ion-icon>
+                        </div>
+                        <br>
+                        <h3>Latest Articles</h3>
+                        <br>
+                        <span>
+                            <b>Check out all our latest articles</b>
+                        </span>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <a class="btn" href="#" role="button">
+                            Posts
+                        </a>
+                    </center>
+                </div>
+            </div>
+            <div class="col m0 l1 hide-on-med-and-down center-align"></div>
+        </div>
+        <hr style="margin-top: 50px;">
+    </section>
+
+    <section style="height: 50px;"></section>
+
+    <footer>
+        <div>
+            <a href="#">
+                <ion-icon class="facebook socials-icon" name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon class="twitter socials-icon" name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon class="discord socials-icon" name="logo-discord"></ion-icon>
+            </a>
+        </div>
+        <p>Copyright &copy; 2022 Alpha n Omega - created by Buzzy10</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="/assets/js/jquery.min.js.download"></script>
+
+    <script>
+       
+    $(function() {
+        $(window).scroll(function() {
+            if ($(window).scrollTop() <=64) {
+                $('.navbar').removeClass('nav-fixed')
+            } else {
+                $('.navbar').addClass('nav-fixed')
+            }
+        })
+    })
+    
+    </script>
+
+    <script>
+
+    $(function() {
+        $(window).scroll(function() {
+            if ($(window).scrollTop() <=64) {
+                $('.btn').removeClass('nav-btn')
+            } else {
+                $('.btn').addClass('nav-btn')
+            }
+        })
+    })
+
+    </script>
+
+</body>
+</html>
